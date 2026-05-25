@@ -14,6 +14,13 @@ const Main = styled.main`
   background-color: var(--color-grey-50);
   padding: 4rem 4.8rem 6.4rem;
   overflow: scroll;
+
+  /* Hide scrollbar across browsers */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE / Edge legacy */
+  &::-webkit-scrollbar {
+    display: none; /* Chrome / Safari / Edge */
+  }
 `;
 
 const Container = styled.div`
