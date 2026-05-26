@@ -165,7 +165,7 @@ function DurationChart({ confirmedStays }) {
               <Cell
                 fill={entry.color}
                 stroke={entry.color}
-                key={entry.durtion}
+                key={entry.duration}
               />
             ))}
           </Pie>
